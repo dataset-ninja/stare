@@ -13,14 +13,16 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Stare"
+PROJECT_NAME: str = "STARE"
 PROJECT_NAME_FULL: str = "STARE: Structured Analysis of the Retina Dataset"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.Unknown()
+LICENSE: License = License.PubliclyAvailable(
+    source_url="https://www.uhu.es/retinopathy/General/030801IEEETransMedImag.pdf"
+)
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical()]
 CATEGORY: Category = Category.Medical()
 
@@ -57,15 +59,16 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = {
-    "Research Paper1": "https://ieeexplore.ieee.org/abstract/document/845178",
-    "Research Paper2": "https://ieeexplore.ieee.org/abstract/document/1216219",
-    "Academic Torrents": "https://academictorrents.com/details/e4554cd63400dc13b74477efe98032c10757c269",
+    "Research Paper 1": "https://ieeexplore.ieee.org/abstract/document/845178",
+    "Research Paper 2": "https://ieeexplore.ieee.org/abstract/document/1216219",
 }
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
+    "Academic Torrents": "https://academictorrents.com/details/e4554cd63400dc13b74477efe98032c10757c269",
+}
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Michael Goldbaum"]
+AUTHORS: Optional[List[str]] = ["A. Hoover", "V. Kouznetsova", "M. Goldbaum"]
 AUTHORS_CONTACTS: Optional[List[str]] = ["mgoldbaum@ucsd.edu"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "University of California, USA"
@@ -73,8 +76,12 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://ucsd.edu/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "labellers": ["adam hoover", "valentina kouznetsova", "filter probing algorithm"],
-    "__POSTTEXT__": "Additionally, every image contains information about patient ***diagnos***",
+    "labelers": [
+        "filter probing algorithm",
+        "adam hoover",
+        "valentina kouznetsova",
+    ],
+    "__POSTTEXT__": "Additionally, every image contains information about patient ***diagnos***. Explore it in supervisely labeling tool",
 }
 TAGS: Optional[List[str]] = None
 
