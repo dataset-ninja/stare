@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Stare"
-PROJECT_NAME_FULL: str = "STARE: Structured Analysis of the Retina"
+PROJECT_NAME_FULL: str = "STARE: Structured Analysis of the Retina Dataset"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
