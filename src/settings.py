@@ -23,7 +23,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 LICENSE: License = License.PubliclyAvailable(
     source_url="https://www.uhu.es/retinopathy/General/030801IEEETransMedImag.pdf"
 )
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Medical()]
 CATEGORY: Category = Category.Medical()
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]

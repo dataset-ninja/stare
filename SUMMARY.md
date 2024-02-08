@@ -1,4 +1,4 @@
-**STARE: Structured Analysis of the Retina Dataset** is a dataset for a semantic segmentation task. It is used in the medical industry. 
+**STARE: Structured Analysis of the Retina Dataset** is a dataset for a semantic segmentation task. It is used in the medical research. 
 
 The dataset consists of 397 images with 60 labeled objects belonging to 1 single class (*vessels*).
 
