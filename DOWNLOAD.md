@@ -1,6 +1,6 @@
 Dataset **STARE** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/K/o/wi/UWDOE0nkS6IFtMZnsKTGi61unsJfRR2mbRw3LS00mrk2F6RMPtjWj3SLwg03Hzyrv5pKRCmt81hvAgVsO927l7vp2dGRJJdDBxl5hmaBY0lkFmr0SvxUbhqBwQZL.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
