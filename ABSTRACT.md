@@ -14,8 +14,7 @@ The authors present an automated approach for identifying and delineating blood 
 
 <span style="font-size: smaller; font-style: italic;">In a healthy retina, the optic nerve has a readily identifiable size, shape, color, and location relative to the blood vessels.</span>
 
-The optic nerve appears toward the of this image as a circular area, roughly one-sixth the width of the image in diameter, brighter than the surrounding area, as the convergent area of the blood vessel network. In an image of a healthy retina, all these properties (shape, color, size, convergence) help contribute to
-the identification of the nerve. However, these features show a large variance that makes simple detection methods brittle, particularly in the presence of retinal disease.
+The optic nerve appears toward the of this image as a circular area, roughly one-sixth the width of the image in diameter, brighter than the surrounding area, as the convergent area of the blood vessel network. In an image of a healthy retina, all these properties (shape, color, size, convergence) help contribute to the identification of the nerve. However, these features show a large variance that makes simple detection methods brittle, particularly in the presence of retinal disease.
 
 <img src="https://github.com/dataset-ninja/stare/assets/120389559/fbbff8da-9e19-484a-be52-75c09825876d" alt="image" width="500">
 
@@ -23,7 +22,7 @@ the identification of the nerve. However, these features show a large variance t
 
 This image of the retina containing drusen. The brightness of these lesions overlaps the brightness of the nerve, so that using brightness as a lone feature for detection is difficult.
 
-<img src="https://github.com/dataset-ninja/stare/assets/120389559/a7e0dda6-b072-4323-bced-82a3f8e65cb6d" alt="image" width="500">
+<img src="https://github.com/dataset-ninja/stare/assets/120389559/84b1efc6-5803-4635-9fb1-ca203ad54bea" alt="image" width="500">
 
 <span style="font-size: smaller; font-style: italic;">Swollen nerve, showing a distorted size and shape.</span>
 
