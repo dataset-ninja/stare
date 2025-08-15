@@ -1,6 +1,6 @@
 Dataset **STARE** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzM0NTVfU1RBUkUvc3RhcmUtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiY09nZXdIZWovd0VUUWZlUFVVSTZDS3JMWEhLWVRLUEhLY1dXSzRwY21SND0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMzQ1NV9TVEFSRS9zdGFyZS1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICIrdnNxTHhibG9HaklLNUZCNjFYeFp4RWhKUkNHdGF0Sy8wUjl0R1YvREI0PSJ9?response-content-disposition=attachment%3B%20filename%3D%22stare-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
